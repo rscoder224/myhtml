@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Use of form  tag in Html</title>
+</head>
+<body>
+    <h1 align="center"> Ganesh Misthan Bhandar </h1>
+    <!-- 
+        Elements used in forms 
+        Textbox - It used take small text as Input.
+        Textarea - It used to take large text as Input.
+        Radio Button - It is used to select one item among 2-3.
+        Submit Button - It is used to submit the form.
+        Reset Button - It is used to reset the form.
+        <input/> - type, value, placeholder.
+     -->
+    <form align="center" >
+        <fieldset>
+            <legend>Booking Form</legend>
+            
+       <b>Name: </b><input type="text" name="name" value="" placeholder="Enter your Name Here">
+       <br><br>
+       <b>Address:</b> <textarea name="Address" placeholder="Type your Address Here"></textarea> <br><br>
+      
+    <b>Samosa</b> <input type="radio" value="Paneer Samosa" name="Samosa" > Paneer Samosa
+    <input type="radio" value=" Aloo Samosa" name="Samosa" > Aloo Samosa
+    <input type="radio" value="Chola Samosa" name="Samosa" > Chola Samosa
+    <br> <br>
+   Metha Manpasand
+    <select default="option">
+        <option>Bundi Laddo INR 160/- Per kg</option>
+        <option>Besan Laddo INR 170/- Per kg</option>
+        <option>Kaju Katli INR 1100/- Per kg</option>
+        <option>Khoya Mithai INR 600/- Per kg</option>
+        <option>Desi Ghee ke Besan Laddo INR 500/- Per kg</option>
+        <option>Gond ke Laddo INR 160/- Per kg</option>
+        <option>Matki Mithai INR 300/- Per kg</option>
+        <option>Meva Laddo INR 1000/- Per kg</option>
+
+
+    </select>
+    <br> <br>
+    <input type="checkbox" value="Accepted"> Accept Terms and Conditions
+    <input type="checkbox" value="Ready"> Ready to Buy
+    <br> <br>
+   image  <input type="file" name="image">
+    <br> <br>
+    <input type="submit" value="Send" > 
+    <input type="reset" value="reset">
+</fieldset>
+</form>
+</body>
+</html>
